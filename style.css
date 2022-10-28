@@ -1,27 +1,34 @@
 /* Basic Style */
+
 body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .matrix {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .matrix img {
   width: 100%;
 }
+
 .matrix .more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
+
   .matrix { 
     text-align: center;
   }
+
 }
+
 .centered-element {
   display: block;
   width: 500px;
@@ -40,7 +47,7 @@ body {
 
 ul {
   margin:0;
-   padding: 0px;
+  padding: 0px;
 }
 
 li, 
